@@ -230,6 +230,6 @@ If you use this code or report, please cite it as:
   author = {Isaac Cantú},
   year   = {2026},
   note   = {v7.33},
-  url    = {https://github.com/isaac-cantu/reactor-world-model}
+  url    = {https://github.com/isaac-cantu/pwr-spatiotemporal-dynamics-model
 }
 ```
