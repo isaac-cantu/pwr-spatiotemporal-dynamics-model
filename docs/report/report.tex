@@ -9,17 +9,24 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{enumitem}
-\usepackage{authblk}
 \hypersetup{colorlinks=true, linkcolor=blue!50!black, citecolor=blue!50!black, urlcolor=blue!50!black}
 
 \title{\textbf{A Multi-Fidelity Latent World Model for Long-Horizon Surrogate Simulation of Reactor Core Thermal Fields}}
-\author{}
-\date{\today}
+
+\author{
+Isaac Cantú\\
+University of Monterrey\\
+University of Michigan
+}
+
+\date{August 2026}
 
 \begin{document}
+
 \maketitle
 
-\begin{abstract} Coupled thermal-hydraulic simulation of a four-loop pressurized-water reactor (PWR) core is computationally expensive, limiting its use for design-space exploration and rapid what-if analysis. This report documents the design, iterative development, and real-data evaluation of a deep-learning \emph{world model} serving as a fast surrogate. The physical system is represented as nine stacked axial layers of a $15\times15$ spatial field with an irregular core mask. The central constraint is data scarcity: only 10\% of the available high-fidelity trajectory may be used for gradient-based training. The model combines a convolutional frame encoder, a causal Transformer for latent dynamics conditioned on a Dynamic-Mode-Decomposition (DMD) trend forecast, a Rectified-Flow residual for calibrated uncertainty, and a bounded residual decoder, trained through a six-stage curriculum with fourteen physically motivated auxiliary losses and four guarantee mechanisms enforced after decoding. On a full real-data training run, the model achieves MAPE below 1\% for eight of nine layers through at least 1{,}000 autoregressive steps, using only the 10\% training budget — an estimated four-to-five order-of-magnitude speed-up over the underlying simulation. We report the methodology, an extensive dynamical-fidelity diagnostic suite, and an honest account of two open issues surfaced by this run: an unresolved boundary-region visual artifact (five correction attempts, one self-corrected regression) and a Rectified-Flow diversity collapse that leaves point forecasts intact but uncertainty quantification non-functional.
+\begin{abstract}
+...
 \end{abstract}
 
 \tableofcontents

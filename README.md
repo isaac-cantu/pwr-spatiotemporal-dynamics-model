@@ -86,8 +86,8 @@ Requires Python 3.9+ and a working PyTorch install (CUDA optional but recommende
 training; the code runs on CPU for the diagnostics/inference path).
 
 ```bash
-git clone https://github.com/isaac-cantu/reactor-world-model.git
-cd reactor-world-model
+git clone https://github.com/isaac-cantu/pwr-spatiotemporal-dynamics-model.git
+cd pwr-spatiotemporal-dynamics-model
 pip install -r requirements.txt
 ```
 
@@ -230,6 +230,6 @@ If you use this code or report, please cite it as:
   author = {Isaac Cantú},
   year   = {2026},
   note   = {v7.33},
-  url    = {https://github.com/isaac-cantu/pwr-spatiotemporal-dynamics-model
+  url    = {https://github.com/isaac-cantu/pwr-spatiotemporal-dynamics-model}
 }
 ```
