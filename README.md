@@ -6,10 +6,9 @@
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Report](https://img.shields.io/badge/report-PDF-red)](docs/report/report.pdf)
 
-</div>
+</div> 
 
 ---
 
@@ -215,10 +214,6 @@ including two fully documented and corrected regressions.
 - [`CHANGELOG.md`](CHANGELOG.md) — the authoritative "why" behind every mechanism in the
   code, v5 through v7.33.
 
-## License
-
-This project is licensed under the MIT License — see [`LICENSE`](LICENSE) for details.
-(Swap this out for your institution's preferred license if MIT isn't appropriate.)
 
 ## Citation
 
